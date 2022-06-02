@@ -1,0 +1,11 @@
+ckpt/*
+*.pdf
+.idea/*
+2/
+__pycache__/*
+data/*
+datasets/*
+draw.py
+little.py
+new_draw.py
+**.pyc

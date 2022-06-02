@@ -1,0 +1,2 @@
+bchlib==0.14.0
+tensorflow-gpu==1.15
