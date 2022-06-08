@@ -15,7 +15,7 @@ from class_index import class_to_label
 
 bd_label = 0
 org_dir = 'data/imagenet/org/'
-bd_dir = 'datasets/sub-imagenet-200-bd/inject_a/train'
+bd_dir = 'data/imagenet/bd'
 
 org_paths = glob(org_dir + '/*.JPEG')
 bd_paths = glob(bd_dir + '/*_hidden.png')
@@ -23,7 +23,7 @@ bd_paths = glob(bd_dir + '/*_hidden.png')
 
 net = 'res18'
 # ckpt = 'ckpt/res18_imagenet/imagenet_model.pth.tar' #theirs
-ckpt = 'ckpt/bd/test_checkpoint/imagenet_model_best.pth.tar'#ours
+ckpt = 'ckpt/res18_imagenet/imagenet_model.pth.tar'#ours
 
 
 # Init env

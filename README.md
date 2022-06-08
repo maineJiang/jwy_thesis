@@ -44,18 +44,18 @@ Before running the code, please download the checkpoints from [Baidudisk](https:
 ## Defense
 Neural Cleanse:
 ```
-cd defenses
+cd defenses/NC
 python neural_cleanse.py
 python postprocess.py
 ```
 
 STRIP:
 ```buildoutcfg
+cd denfenses/STRIP
 python strip.py
 ```
 ## Citation
-Please cite our paper in your publications if it helps your research:
-
+This rep is established based on Li's work, thanks a lot for their great work
 ```
 @inproceedings{li_ISSBA_2021,
   title={Invisible Backdoor Attack with Sample-Specific Triggers},

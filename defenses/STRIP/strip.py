@@ -73,7 +73,7 @@ class bd_data(data.Dataset):
             input = np.array(im)
 
         return input, self.bd_label
-image_datasets = {x: datasets.ImageFolder(os.path.join('D:\Desktop\安全AI对抗\ISSBA-main\datasets\sub-imagenet-200', x), data_transforms[x])
+image_datasets = {x: datasets.ImageFolder(os.path.join('D:\Desktop\lab\ISSBA-main\datasets\sub-imagenet-200', x), data_transforms[x])
                     for x in ['train', 'val','test']}
 train_loader = data.DataLoader(image_datasets['train'], batch_size=50, shuffle=True, num_workers=0)
 val_loader = data.DataLoader(image_datasets['val'], batch_size=50, shuffle=True, num_workers=0)
